@@ -1,0 +1,66 @@
+.aimg{
+    position: absolute;
+    left: 18.22%;
+    right: 75.98%;
+    top: 31.71%;
+    bottom: 58.07%;
+    
+    border: 1px solid #FFFFFF;
+}
+.aword{
+    position: absolute;
+    width: 486px;
+    height: 289px;
+    left: 834px;
+    top: 209px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    
+    color: #FFFFFF;
+    
+}
+.Aback{
+    position: absolute;
+width: 100vw;
+height: 100vh;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(72.11deg, #D52800 0%, #FF0000 100%);
+}
+.Nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left:5rem;
+    margin-right:5rem;
+}
+@media only screen and (max-width:600px){
+    .aimg{
+        width:30rem;
+        margin-top: -8rem;
+        margin-left: -3rem;
+
+    }
+    .aword{
+        margin-left: -47rem;
+        margin-top: 20rem;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .aimg{
+        width:20rem;
+        margin-top: -5rem;
+        margin-left: -3rem;
+
+    }
+    .aword{
+        margin-left: -45rem;
+        margin-top: 30rem;
+        font-size: 1.5rem;
+    }
+}

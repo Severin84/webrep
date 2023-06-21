@@ -1,0 +1,63 @@
+.mimg{
+    position: absolute;
+    width: 711.88px;
+    height: 363.53px;
+    left: 106px;
+    top: 212.47px;
+}
+.mword{
+    position: absolute;
+    width: 487px;
+    height: 256px;
+    left: 834px;
+    top: 209px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    
+    color: #FFFFFF;  
+}
+.mback{
+    position: absolute;
+width: 100vw;
+height: 100vh;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(252.11deg, #0DD5A4 0%, #05A27B 100%);
+}
+.Nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left:5rem;
+    margin-right:5rem;
+}
+
+@media only screen and (max-width:600px){
+    .mdimg{
+        margin-left: -2rem;
+        width:30rem;
+        margin-top: -5rem;
+    }
+    .mword{
+        margin-left: -50rem;
+        margin-top: 12rem;
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (max-width:768px){
+    .mdimg{
+        margin-left: -5rem;
+        width:45rem;
+        margin-top: 3rem;
+    }
+    .mword{
+        margin-left: -50rem;
+        margin-top: 30rem;
+        font-size: 2rem;
+        width:40rem
+    }
+}

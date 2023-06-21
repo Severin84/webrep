@@ -1,0 +1,43 @@
+.dotsContainerStyles{
+    display: flex;
+    flex-direction: column;
+     margin-top: -32rem;
+    position:sticky;
+}
+
+@media only screen and (max-width:600px) {
+    .dotsContainerStyles{
+        margin-left: 25rem;
+    }
+   
+    .img{
+        width: 15rem;
+    }
+    .right{
+        margin-right: -12rem;
+    }
+    .left{
+        margin-left: -18rem;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .dotsContainerStyles{
+       margin-left: 20rem;
+       margin-bottom: 30rem;
+       font-size: 5rem;
+    }
+   
+    .img{
+        width: 20rem;
+        margin-top: 30rem;
+    }
+    .right{
+      margin-top: -20rem;
+        margin-right: -1rem;
+    }
+    .left{
+        margin-top: -20rem;
+        margin-left: -29rem;
+    }
+}

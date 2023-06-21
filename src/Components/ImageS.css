@@ -1,0 +1,15 @@
+@media only screen and (max-width:600px){
+  .slideimg{
+    width:30rem;
+    margin-left: 7rem;
+  }  
+  .dots{
+    margin-left: 13rem;
+  }
+  .arrowL{
+    padding-left: 10rem;
+  }
+  .arrowR{
+    padding-right: 1rem;
+  }
+}
